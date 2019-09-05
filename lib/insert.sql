@@ -1,0 +1,33 @@
+INSERT INTO users (name, age) VALUES
+('Finnebar', 17),
+('Bear', 6),
+('Iguana', 4),
+('Alex', 33),
+('Amanda', 24),
+('Sophie', 24),
+('Rosey', 9),
+('Victoria', 23),
+('Franz', 100),
+('Hermione', 30),
+('Voldemort', 90),
+('Marisa', 24),
+('Swizzle', 4),
+('Sirius', 36),
+('Albus', 113),
+('Squid', 5),
+('Whale', 6),
+('Pacha', 5),
+('Ena', 24),
+('Katie', 24);
+
+INSERT INTO pledges (amount, user_id, project_id) VALUES
+(10.00, 1, 2),
+(20.00, 1, 3),
+(40.00, 1, 4),
+(50.00, 2, 3),
+(10.00, 3, 2),
+(20.00, 4, 4),
+(40.00, 5, 10),
+(60.00, 6, 10),
+(50.00, 7, 9),
+(700.00, 8, 8);
